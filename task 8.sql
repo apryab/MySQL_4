@@ -1,0 +1,1 @@
+select round(exp(sum(log(`value`)))) from `table_name`;
