@@ -1,0 +1,1 @@
+select count(id) from users group by date_format(birthday_at,'%M');
